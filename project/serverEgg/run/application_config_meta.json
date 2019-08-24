@@ -1,0 +1,265 @@
+{
+  "key": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+  "security": {
+    "csrf": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+    "domainWhiteList": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+      "port": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+      "user": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+      "password": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+      "database": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js"
+    },
+    "app": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+    "agent": "D:\\high-node\\exercise\\project\\serverEgg\\config\\config.default.js",
+    "default": {
+      "database": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "keys": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "md5": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\high-node\\exercise\\project\\serverEgg\\node_modules\\egg\\config\\config.default.js"
+}

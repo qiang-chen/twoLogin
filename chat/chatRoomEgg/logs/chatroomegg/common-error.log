@@ -1,0 +1,650 @@
+2019-08-15 18:37:54,209 ERROR 17200 [-/127.0.0.1/-/15ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\high-node\exercise\chatRoomEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\high-node\exercise\chatRoomEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\high-node\exercise\chatRoomEgg\node_modules\egg-security\app\extend\context.js:87:33)
+    at Object.ensureCsrfSecret (D:\high-node\exercise\chatRoomEgg\node_modules\egg-security\app\extend\context.js:98:13)
+    at csrf (D:\high-node\exercise\chatRoomEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 17200
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 19:20:44,694 ERROR 10284 nodejs.ClusterClientNoResponseError: client no response in 1223122ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10284
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 20:20:39,730 ERROR 13540 [-/169.254.155.89/-/25ms POST /user/register] nodejs.TypeError: Cannot read property 'query' of undefined
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\service\user\user.js:8:42)
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\controller\user\user.js:15:46)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 13540
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 20:22:53,207 ERROR 19196 [-/::1/-/18ms POST /user/register] nodejs.TypeError: Cannot read property 'query' of undefined
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\service\user\user.js:8:42)
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\controller\user\user.js:15:46)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 19196
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 20:23:53,489 ERROR 16012 [-/::1/-/18ms POST /user/register] nodejs.TypeError: Cannot read property 'query' of undefined
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\service\user\user.js:8:42)
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\controller\user\user.js:15:46)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 16012
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 20:34:29,913 ERROR 17828 [-/::1/-/48ms POST /user/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '陈强' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\chatRoomEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\chatRoomEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\chatRoomEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\chatRoomEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\chatRoomEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\co\index.js:54:5
+    sql: select * from chatuser where username=陈强
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '陈强' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from chatuser where username=陈强"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 17828
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 21:32:32,808 ERROR 15880 [-/::1/-/25ms POST /user/register] nodejs.TypeError: Cannot read property 'query' of undefined
+    at Find.find (D:\high-node\exercise\chatRoomEgg\app\service\find.js:7:47)
+    at User.register (D:\high-node\exercise\chatRoomEgg\app\controller\user\user.js:15:49)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15880
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-15 22:22:12,575 ERROR 17944 nodejs.ClusterClientNoResponseError: client no response in 2206090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 17944
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 16:10:18,203 ERROR 1008 [-/::1/-/17ms POST /user/register] nodejs.TypeError: Cannot read property 'length' of undefined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:21:26)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 1008
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:00:32,504 ERROR 16488 [-/169.254.155.89/-/44ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 16488
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:01:10,628 ERROR 12756 [-/169.254.155.89/-/98ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 12756
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:02:25,858 ERROR 12756 [-/169.254.155.89/-/13ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 12756
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:02:43,150 ERROR 1028 [-/169.254.155.89/-/53ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 1028
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:02:47,022 ERROR 1028 [-/169.254.155.89/-/4ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 1028
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:02:51,316 ERROR 1028 [-/169.254.155.89/-/10ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:39:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 1028
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 17:05:32,021 ERROR 1348 [-/169.254.155.89/-/39ms POST /user/register] nodejs.ReferenceError: token is not defined
+    at User.register (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:38:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-static-cache\index.js:51:63
+
+pid: 1348
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 20:34:03,691 ERROR 11120 [-/::1/-/9ms GET /user/list] nodejs.ReferenceError: ctx is not defined
+    at User.getList (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:89:18)
+    at Object.callFn (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 11120
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-19 22:24:20,614 ERROR 3668 nodejs.ClusterClientNoResponseError: client no response in 2069688ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3668
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-21 19:40:38,839 ERROR 13928 [-/169.254.155.89/-/4ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at User.upload (D:\high-node\exercise\chat\chatRoomEgg\app\controller\user\user.js:115:38)
+    at Object.callFn (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13928
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-21 20:55:16,023 ERROR 12920 nodejs.TypeError: Callback must be a function. Received undefined (uncaughtException throw 1 times on pid:12920)
+    at maybeCallback (fs.js:142:9)
+    at Object.writeFile (fs.js:1175:14)
+    at D:\high-node\exercise\chat\chatRoomEgg\app\utils\saveImg.js:12:20
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
+
+pid: 12920
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-21 23:20:47,170 ERROR 12776 nodejs.ClusterClientNoResponseError: client no response in 5208488ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12776
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 08:59:43,159 ERROR 10172 [-/169.254.155.89/-/9ms GET /user/list] nodejs.Error: Signature verification failed
+    at Object.jwt_decode [as decode] (D:\high-node\exercise\chat\chatRoomEgg\node_modules\jwt-simple\lib\jwt.js:92:13)
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:13:19)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 10172
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 09:01:41,596 ERROR 14096 [-/169.254.155.89/-/7ms GET /user/list] nodejs.TypeError: ctx.service.user.find is not a function
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:15:37)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 14096
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 09:04:14,506 ERROR 7128 [-/169.254.155.89/-/9ms GET /user/list] nodejs.TypeError: ctx.service.user.find is not a function
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:15:43)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 7128
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 09:14:06,648 ERROR 8180 [-/169.254.155.89/-/8ms GET /user/list] nodejs.Error: Not enough or too many segments
+    at Object.jwt_decode [as decode] (D:\high-node\exercise\chat\chatRoomEgg\node_modules\jwt-simple\lib\jwt.js:66:11)
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:13:19)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8180
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 09:15:25,378 ERROR 7688 [-/169.254.155.89/-/8ms GET /user/list] nodejs.Error: Not enough or too many segments
+    at Object.jwt_decode [as decode] (D:\high-node\exercise\chat\chatRoomEgg\node_modules\jwt-simple\lib\jwt.js:66:11)
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:13:25)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 7688
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 09:23:30,367 ERROR 6064 [-/169.254.155.89/-/7ms GET /user/list] nodejs.Error: Not enough or too many segments
+    at Object.jwt_decode [as decode] (D:\high-node\exercise\chat\chatRoomEgg\node_modules\jwt-simple\lib\jwt.js:66:11)
+    at jurisdiction (D:\high-node\exercise\chat\chatRoomEgg\app\middleware\jurisdiction.js:13:25)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 6064
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 15:45:33,243 ERROR 9008 nodejs.unhandledRejectionError: Invalid login: 535 5.7.8 authentication failed
+    at SMTPConnection._formatError (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:781:19)
+    at SMTPConnection._actionAUTHComplete (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:1516:34)
+    at SMTPConnection.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:940:20)
+    at SMTPConnection._onData (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:746:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:189:46)
+    at TLSSocket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at TLSSocket.Readable.push (_stream_readable.js:210:10)
+code: "EAUTH"
+response: "535 5.7.8 authentication failed"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "unhandledRejectionError"
+pid: 9008
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 18:07:07,210 ERROR 1896 nodejs.ClusterClientNoResponseError: client no response in 1912175ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1896
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 18:36:23,055 ERROR 2032 nodejs.unhandledRejectionError: Invalid login: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+    at SMTPConnection._formatError (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:781:19)
+    at SMTPConnection._actionAUTHComplete (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:1516:34)
+    at SMTPConnection.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:940:20)
+    at SMTPConnection._onData (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:746:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\high-node\exercise\chat\chatRoomEgg\node_modules\nodemailer\lib\smtp-connection\index.js:189:46)
+    at TLSSocket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at TLSSocket.Readable.push (_stream_readable.js:210:10)
+code: "EAUTH"
+response: "535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "unhandledRejectionError"
+pid: 2032
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 19:49:26,023 ERROR 11180 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:183:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11180
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 19:56:29,314 ERROR 5668 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:183:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5668
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 19:56:40,525 ERROR 5668 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:183:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5668
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 20:23:25,705 ERROR 3060 nodejs.TypeError: Cannot read property 'emit' of undefined
+    at D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:34:12
+    at module.exports (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 3060
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 20:25:32,699 ERROR 13192 nodejs.TypeError: Cannot read property 'emit' of undefined
+    at D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:34:12
+    at module.exports (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 13192
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-22 22:27:53,535 ERROR 2972 nodejs.ClusterClientNoResponseError: client no response in 2046483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2972
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:01:07,470 ERROR 8680 nodejs.ERR_UNHANDLED_ERRORError: Unhandled error. ('用户已退出')
+    at Socket.emit (events.js:192:17)
+    at Socket.emit (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\socket.js:142:10)
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:8:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+context: "用户已退出"
+name: "ERR_UNHANDLED_ERRORError"
+pid: 8680
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:01:52,237 ERROR 15480 nodejs.ERR_UNHANDLED_ERRORError: Unhandled error. ('用户已退出')
+    at Socket.emit (events.js:192:17)
+    at Socket.emit (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\socket.js:142:10)
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:6:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+context: "用户已退出"
+name: "ERR_UNHANDLED_ERRORError"
+pid: 15480
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:01:52,958 ERROR 15480 nodejs.ERR_UNHANDLED_ERRORError: Unhandled error. ('用户已退出')
+    at Socket.emit (events.js:192:17)
+    at Socket.emit (D:\high-node\exercise\chat\chatRoomEgg\node_modules\socket.io\lib\socket.js:142:10)
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:6:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+context: "用户已退出"
+name: "ERR_UNHANDLED_ERRORError"
+pid: 15480
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:07:36,172 ERROR 4872 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 4872
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:08:25,114 ERROR 10828 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 10828
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:08:26,189 ERROR 10828 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 10828
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:08:47,757 ERROR 12088 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 12088
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:08:58,727 ERROR 12088 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 12088
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:09:00,934 ERROR 1296 nodejs.ReferenceError: ctx is not defined
+    at Object.<anonymous> (D:\high-node\exercise\chat\chatRoomEgg\app\io\middleware\auth.js:5:21)
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (D:\high-node\exercise\chat\chatRoomEgg\node_modules\co\index.js:50:10)
+    at converted (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-convert\index.js:17:15)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\chat\chatRoomEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 1296
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 17:57:24,837 ERROR 10188 nodejs.ClusterClientNoResponseError: client no response in 1474858ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10188
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-23 19:25:42,081 ERROR 16496 nodejs.ClusterClientNoResponseError: client no response in 4295037ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\high-node\exercise\chat\chatRoomEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16496
+hostname: DESKTOP-0Q5T0JS
+

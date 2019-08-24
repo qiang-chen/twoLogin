@@ -1,0 +1,735 @@
+2019-08-17 08:40:49,516 ERROR 4572 [-/::1/-/25ms POST //user/register] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\high-node\exercise\project\serverEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\high-node\exercise\project\serverEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\app\extend\context.js:87:33)
+    at Object.ensureCsrfSecret (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\app\extend\context.js:98:13)
+    at csrf (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:42:32)
+    at session (D:\high-node\exercise\project\serverEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 4572
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:39:01,032 ERROR 16948 [-/127.0.0.1/-/6ms GET /user/list?limit=5&pages=0] nodejs.TypeError: Cannot read property 'intercept' of undefined
+    at intercept (D:\high-node\exercise\project\serverEgg\app\middleware\intercept.js:6:32)
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:42:32)
+    at D:\high-node\exercise\project\serverEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\high-node\exercise\project\serverEgg\node_modules\koa-compose\index.js:42:32)
+
+pid: 16948
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:45:36,840 ERROR 4344 [-/127.0.0.1/-/14ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4344
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:45:39,338 ERROR 4344 [-/127.0.0.1/-/4ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4344
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:48:01,822 ERROR 11344 [-/127.0.0.1/-/7ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11344
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:48:21,595 ERROR 19292 [-/127.0.0.1/-/9ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 19292
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:54:17,174 ERROR 16804 [-/127.0.0.1/-/8ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16804
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:54:47,082 ERROR 11484 [-/127.0.0.1/-/21ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:58:39,892 ERROR 11484 [-/127.0.0.1/-/21ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 19:59:16,101 ERROR 11484 [-/127.0.0.1/-/14ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:00:38,342 ERROR 11484 [-/127.0.0.1/-/21ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:00:40,061 ERROR 11484 [-/127.0.0.1/-/12ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:00:48,108 ERROR 11484 [-/127.0.0.1/-/61ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:01:07,713 ERROR 11484 [-/127.0.0.1/-/35ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:01:17,614 ERROR 11484 [-/127.0.0.1/-/27ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:01:33,977 ERROR 11484 [-/127.0.0.1/-/68ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:01:57,025 ERROR 11484 [-/127.0.0.1/-/15ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:02:24,264 ERROR 11484 [-/127.0.0.1/-/23ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11484
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:04:01,984 ERROR 8304 [-/127.0.0.1/-/23ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8304
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:04:42,645 ERROR 16496 [-/127.0.0.1/-/9ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16496
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:04:57,413 ERROR 10444 [-/127.0.0.1/-/12ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10444
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:06:16,682 ERROR 692 [-/127.0.0.1/-/10ms GET /user/list?limit=5&pages=0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (D:\high-node\exercise\project\serverEgg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\high-node\exercise\project\serverEgg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:65:19)
+    at D:\high-node\exercise\project\serverEgg\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` = NaN LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 692
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:12:49,234 ERROR 19184 [-/127.0.0.1/-/7ms GET /user/list?limit=5&pages=0] nodejs.TypeError: Cannot read property 'token' of null
+    at intercept (D:\high-node\exercise\project\serverEgg\app\middleware\intercept.js:19:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\project\serverEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\project\serverEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\koa-static-cache\index.js:53:56
+
+pid: 19184
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:13:55,429 ERROR 5692 [-/127.0.0.1/-/7ms GET /user/list?limit=5&pages=0] nodejs.TypeError: Cannot read property 'token' of null
+    at intercept (D:\high-node\exercise\project\serverEgg\app\middleware\intercept.js:20:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\project\serverEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\project\serverEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\koa-static-cache\index.js:53:56
+
+pid: 5692
+hostname: DESKTOP-0Q5T0JS
+
+2019-08-20 20:14:18,830 ERROR 18840 [-/127.0.0.1/-/11ms GET /user/list?limit=5&pages=0] nodejs.TypeError: Cannot read property 'token' of null
+    at intercept (D:\high-node\exercise\project\serverEgg\app\middleware\intercept.js:21:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\high-node\exercise\project\serverEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\high-node\exercise\project\serverEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\high-node\exercise\project\serverEgg\node_modules\koa-bodyparser\index.js:86:5)
+    at async D:\high-node\exercise\project\serverEgg\node_modules\koa-static-cache\index.js:53:56
+
+pid: 18840
+hostname: DESKTOP-0Q5T0JS
+

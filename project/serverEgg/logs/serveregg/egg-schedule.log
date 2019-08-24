@@ -1,0 +1,522 @@
+2019-08-17 08:34:43,912 INFO 16144 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71716091ms at 2019-08-18 04:30:00.003
+2019-08-17 08:34:43,912 INFO 16144 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 55516088ms at 2019-08-18 00:00:00.000
+2019-08-17 08:34:43,913 INFO 16144 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55517088ms at 2019-08-18 00:00:01.001
+2019-08-17 08:34:43,745 INFO 4572 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 08:34:43,745 INFO 4572 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 08:34:43,745 INFO 4572 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 08:46:23,363 INFO 16368 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71016640ms at 2019-08-18 04:30:00.003
+2019-08-17 08:46:23,364 INFO 16368 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54816637ms at 2019-08-18 00:00:00.001
+2019-08-17 08:46:23,364 INFO 16368 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54817636ms at 2019-08-18 00:00:01.000
+2019-08-17 08:46:23,208 INFO 16848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 08:46:23,208 INFO 16848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 08:46:23,208 INFO 16848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 08:46:42,830 INFO 7624 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 08:46:42,830 INFO 7624 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 08:46:42,830 INFO 7624 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 08:46:50,530 INFO 9576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 08:46:50,530 INFO 9576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 08:46:50,530 INFO 9576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:29:51,620 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:29:51,620 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:29:51,620 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:29:54,181 INFO 1248 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:29:54,181 INFO 1248 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:29:54,181 INFO 1248 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:29:56,213 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:29:56,213 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:29:56,213 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:30:22,010 INFO 19848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:30:22,010 INFO 19848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:30:22,010 INFO 19848 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:30:45,065 INFO 9096 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:30:45,065 INFO 9096 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:30:45,065 INFO 9096 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:30:47,294 INFO 14592 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:30:47,294 INFO 14592 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:30:47,294 INFO 14592 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:31:06,791 INFO 14812 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:31:06,791 INFO 14812 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:31:06,791 INFO 14812 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:31:09,898 INFO 10492 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:31:09,898 INFO 10492 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:31:09,898 INFO 10492 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:31:11,279 INFO 5560 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:31:11,279 INFO 5560 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:31:11,279 INFO 5560 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:31:52,517 INFO 4344 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68287485ms at 2019-08-18 04:30:00.002
+2019-08-17 09:31:52,518 INFO 4344 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52087483ms at 2019-08-18 00:00:00.001
+2019-08-17 09:31:52,518 INFO 4344 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52088482ms at 2019-08-18 00:00:01.000
+2019-08-17 09:31:52,381 INFO 9828 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:31:52,381 INFO 9828 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:31:52,381 INFO 9828 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:32:51,434 INFO 13728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:32:51,434 INFO 13728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:32:51,434 INFO 13728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:33:07,860 INFO 9032 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:33:07,861 INFO 9032 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:33:07,861 INFO 9032 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:33:09,994 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:33:09,994 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:33:09,994 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 09:33:17,200 INFO 2172 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 09:33:17,200 INFO 2172 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 09:33:17,200 INFO 2172 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:30:00,371 INFO 7628 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:30:00,371 INFO 7628 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:30:00,371 INFO 7628 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:30:11,641 INFO 13508 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:30:11,641 INFO 13508 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:30:11,641 INFO 13508 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:38:56,318 INFO 11320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:38:56,318 INFO 11320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:38:56,318 INFO 11320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:39:35,406 INFO 18036 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:39:35,406 INFO 18036 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:39:35,406 INFO 18036 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:40:15,968 INFO 12500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:40:15,968 INFO 12500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:40:15,968 INFO 12500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:40:46,559 INFO 10428 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:40:46,559 INFO 10428 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:40:46,559 INFO 10428 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:42:50,442 INFO 3400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:42:50,442 INFO 3400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:42:50,442 INFO 3400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:49:34,073 INFO 18648 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:49:34,073 INFO 18648 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:49:34,073 INFO 18648 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:50:15,569 INFO 10028 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:50:15,569 INFO 10028 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:50:15,569 INFO 10028 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:52:17,463 INFO 3740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:52:17,463 INFO 3740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:52:17,463 INFO 3740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:53:12,170 INFO 6664 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:53:12,170 INFO 6664 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:53:12,170 INFO 6664 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:53:57,617 INFO 18412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:53:57,617 INFO 18412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:53:57,617 INFO 18412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 10:57:18,899 INFO 18368 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 10:57:18,899 INFO 18368 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 10:57:18,899 INFO 18368 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:24:56,464 INFO 10172 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61503538ms at 2019-08-18 04:30:00.002
+2019-08-17 11:24:56,464 INFO 10172 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45303536ms at 2019-08-18 00:00:00.000
+2019-08-17 11:24:56,465 INFO 10172 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45304536ms at 2019-08-18 00:00:01.001
+2019-08-17 11:24:56,283 INFO 13504 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:24:56,283 INFO 13504 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:24:56,283 INFO 13504 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:30:14,528 INFO 12712 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:30:14,528 INFO 12712 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:30:14,528 INFO 12712 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:31:17,357 INFO 18520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:31:17,357 INFO 18520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:31:17,357 INFO 18520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:31:42,650 INFO 11740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:31:42,650 INFO 11740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:31:42,650 INFO 11740 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:32:34,465 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:32:34,465 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:32:34,465 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:34:35,423 INFO 684 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:34:35,424 INFO 684 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:34:35,424 INFO 684 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:35:21,888 INFO 8540 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60878114ms at 2019-08-18 04:30:00.002
+2019-08-17 11:35:21,889 INFO 8540 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 44678112ms at 2019-08-18 00:00:00.001
+2019-08-17 11:35:21,889 INFO 8540 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44679111ms at 2019-08-18 00:00:01.000
+2019-08-17 11:35:21,707 INFO 9000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:35:21,707 INFO 9000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:35:21,707 INFO 9000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:36:12,405 INFO 18980 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60827597ms at 2019-08-18 04:30:00.002
+2019-08-17 11:36:12,405 INFO 18980 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 44627595ms at 2019-08-18 00:00:00.000
+2019-08-17 11:36:12,406 INFO 18980 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44628595ms at 2019-08-18 00:00:01.001
+2019-08-17 11:36:12,223 INFO 19976 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:36:12,223 INFO 19976 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:36:12,223 INFO 19976 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:36:49,086 INFO 744 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:36:49,086 INFO 744 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:36:49,086 INFO 744 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:37:40,161 INFO 2284 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:37:40,161 INFO 2284 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:37:40,161 INFO 2284 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:38:28,655 INFO 5320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:38:28,655 INFO 5320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:38:28,655 INFO 5320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:39:55,110 INFO 18312 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:39:55,110 INFO 18312 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:39:55,110 INFO 18312 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:41:36,761 INFO 5412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:41:36,761 INFO 5412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:41:36,761 INFO 5412 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:42:45,299 INFO 20436 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:42:45,299 INFO 20436 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:42:45,299 INFO 20436 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:43:48,144 INFO 17188 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:43:48,144 INFO 17188 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:43:48,144 INFO 17188 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:44:49,808 INFO 18932 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:44:49,808 INFO 18932 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:44:49,808 INFO 18932 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:46:27,689 INFO 20144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:46:27,689 INFO 20144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:46:27,689 INFO 20144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:47:51,715 INFO 11400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:47:51,715 INFO 11400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:47:51,715 INFO 11400 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:49:06,496 INFO 18472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:49:06,496 INFO 18472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:49:06,496 INFO 18472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:49:23,275 INFO 9156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:49:23,275 INFO 9156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:49:23,275 INFO 9156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:49:38,861 INFO 19636 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:49:38,861 INFO 19636 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:49:38,861 INFO 19636 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:50:35,888 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:50:35,889 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:50:35,889 INFO 20212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:51:19,221 INFO 15760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:51:19,221 INFO 15760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:51:19,221 INFO 15760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:52:19,421 INFO 17956 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:52:19,421 INFO 17956 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:52:19,421 INFO 17956 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 11:54:37,836 INFO 14472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 11:54:37,837 INFO 14472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 11:54:37,837 INFO 14472 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 17:39:31,214 INFO 9464 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39028788ms at 2019-08-18 04:30:00.002
+2019-08-17 17:39:31,215 INFO 9464 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 22828785ms at 2019-08-18 00:00:00.000
+2019-08-17 17:39:31,215 INFO 9464 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 22829785ms at 2019-08-18 00:00:01.000
+2019-08-17 17:39:30,890 INFO 2692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 17:39:30,890 INFO 2692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 17:39:30,890 INFO 2692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 17:52:35,791 INFO 11868 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 17:52:35,792 INFO 11868 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 17:52:35,792 INFO 11868 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 17:53:07,325 INFO 1084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 17:53:07,325 INFO 1084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 17:53:07,325 INFO 1084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 18:17:17,639 INFO 15144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 18:17:17,639 INFO 15144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 18:17:17,639 INFO 15144 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 18:22:22,070 INFO 18632 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 18:22:22,070 INFO 18632 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 18:22:22,071 INFO 18632 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 18:25:42,697 INFO 11616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 18:25:42,697 INFO 11616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 18:25:42,697 INFO 11616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 18:28:13,013 INFO 15512 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 18:28:13,013 INFO 15512 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 18:28:13,013 INFO 15512 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-17 18:28:43,212 INFO 14316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-17 18:28:43,212 INFO 14316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-17 18:28:43,212 INFO 14316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-18 13:47:40,305 INFO 15924 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-18 13:47:40,305 INFO 15924 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-18 13:47:40,305 INFO 15924 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-18 13:47:40,642 INFO 18288 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52939360ms at 2019-08-19 04:30:00.002
+2019-08-18 13:47:40,643 INFO 18288 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 36739358ms at 2019-08-19 00:00:00.001
+2019-08-18 13:47:40,643 INFO 18288 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 36740357ms at 2019-08-19 00:00:01.000
+2019-08-18 15:25:19,392 INFO 10752 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47080610ms at 2019-08-19 04:30:00.002
+2019-08-18 15:25:19,392 INFO 10752 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 30880608ms at 2019-08-19 00:00:00.000
+2019-08-18 15:25:19,392 INFO 10752 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 30881608ms at 2019-08-19 00:00:01.000
+2019-08-18 15:25:19,183 INFO 15220 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-18 15:25:19,183 INFO 15220 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-18 15:25:19,183 INFO 15220 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 10:54:02,571 INFO 8108 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63357431ms at 2019-08-21 04:30:00.002
+2019-08-20 10:54:02,571 INFO 8108 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47157429ms at 2019-08-21 00:00:00.000
+2019-08-20 10:54:02,572 INFO 8108 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47158429ms at 2019-08-21 00:00:01.001
+2019-08-20 10:54:02,339 INFO 18788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 10:54:02,339 INFO 18788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 10:54:02,339 INFO 18788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 10:59:09,892 INFO 3288 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 10:59:09,892 INFO 3288 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 10:59:09,892 INFO 3288 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:00:26,576 INFO 14024 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62973426ms at 2019-08-21 04:30:00.002
+2019-08-20 11:00:26,577 INFO 14024 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 46773424ms at 2019-08-21 00:00:00.001
+2019-08-20 11:00:26,577 INFO 14024 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 46774423ms at 2019-08-21 00:00:01.000
+2019-08-20 11:00:26,398 INFO 12616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:00:26,398 INFO 12616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:00:26,398 INFO 12616 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:00:52,602 INFO 4168 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:00:52,602 INFO 4168 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:00:52,602 INFO 4168 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:02:28,690 INFO 11064 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:02:28,690 INFO 11064 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:02:28,690 INFO 11064 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:03:58,629 INFO 9184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:03:58,629 INFO 9184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:03:58,630 INFO 9184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:04:35,479 INFO 9048 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:04:35,479 INFO 9048 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:04:35,479 INFO 9048 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:13:16,570 INFO 14788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:13:16,570 INFO 14788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:13:16,570 INFO 14788 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:14:12,081 INFO 1216 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:14:12,081 INFO 1216 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:14:12,081 INFO 1216 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:21:29,404 INFO 8864 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:21:29,405 INFO 8864 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:21:29,405 INFO 8864 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:21:30,717 INFO 8992 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:21:30,717 INFO 8992 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:21:30,717 INFO 8992 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:21:41,949 INFO 5036 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61698054ms at 2019-08-21 04:30:00.003
+2019-08-20 11:21:41,949 INFO 5036 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45498051ms at 2019-08-21 00:00:00.000
+2019-08-20 11:21:41,949 INFO 5036 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45499051ms at 2019-08-21 00:00:01.000
+2019-08-20 11:21:41,716 INFO 12608 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:21:41,716 INFO 12608 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:21:41,716 INFO 12608 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:22:16,879 INFO 6752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:22:16,879 INFO 6752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:22:16,879 INFO 6752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:23:32,589 INFO 15908 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:23:32,590 INFO 15908 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:23:32,590 INFO 15908 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:24:14,931 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:24:14,931 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:24:14,931 INFO 5568 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:25:26,086 INFO 9928 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61473916ms at 2019-08-21 04:30:00.002
+2019-08-20 11:25:26,087 INFO 9928 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45273914ms at 2019-08-21 00:00:00.000
+2019-08-20 11:25:26,087 INFO 9928 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45274913ms at 2019-08-21 00:00:01.000
+2019-08-20 11:25:25,899 INFO 20524 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:25:25,899 INFO 20524 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:25:25,899 INFO 20524 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:25:40,882 INFO 17320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:25:40,883 INFO 17320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:25:40,883 INFO 17320 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:26:12,226 INFO 18660 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:26:12,226 INFO 18660 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:26:12,226 INFO 18660 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:26:20,762 INFO 9968 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:26:20,762 INFO 9968 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:26:20,762 INFO 9968 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:27:25,098 INFO 12892 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:27:25,098 INFO 12892 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:27:25,098 INFO 12892 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:27:48,745 INFO 20148 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:27:48,746 INFO 20148 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:27:48,746 INFO 20148 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:28:21,309 INFO 17916 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:28:21,309 INFO 17916 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:28:21,309 INFO 17916 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:28:55,326 INFO 10696 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:28:55,326 INFO 10696 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:28:55,326 INFO 10696 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:29:04,594 INFO 18896 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:29:04,594 INFO 18896 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:29:04,594 INFO 18896 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 11:58:25,850 INFO 20456 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59494152ms at 2019-08-21 04:30:00.002
+2019-08-20 11:58:25,850 INFO 20456 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43294150ms at 2019-08-21 00:00:00.000
+2019-08-20 11:58:25,850 INFO 20456 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43295150ms at 2019-08-21 00:00:01.000
+2019-08-20 11:58:25,670 INFO 10800 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 11:58:25,670 INFO 10800 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 11:58:25,670 INFO 10800 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 14:26:40,803 INFO 20504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50599200ms at 2019-08-21 04:30:00.003
+2019-08-20 14:26:40,803 INFO 20504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34399197ms at 2019-08-21 00:00:00.000
+2019-08-20 14:26:40,803 INFO 20504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34400197ms at 2019-08-21 00:00:01.000
+2019-08-20 14:26:40,601 INFO 10880 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 14:26:40,601 INFO 10880 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 14:26:40,601 INFO 10880 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 16:03:31,091 INFO 7008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 16:03:31,092 INFO 7008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 16:03:31,092 INFO 7008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 16:04:42,964 INFO 20252 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 16:04:42,964 INFO 20252 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 16:04:42,964 INFO 20252 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 16:13:37,734 INFO 8212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 16:13:37,734 INFO 8212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 16:13:37,734 INFO 8212 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 16:15:30,116 INFO 18796 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 16:15:30,116 INFO 18796 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 16:15:30,116 INFO 18796 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 16:17:05,811 INFO 18124 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 16:17:05,811 INFO 18124 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 16:17:05,811 INFO 18124 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 17:20:08,417 INFO 16444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 17:20:08,417 INFO 16444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 17:20:08,417 INFO 16444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 17:21:47,231 INFO 13520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 17:21:47,231 INFO 13520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 17:21:47,231 INFO 13520 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 17:28:48,366 INFO 18488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 17:28:48,366 INFO 18488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 17:28:48,366 INFO 18488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:25:07,658 INFO 16316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:25:07,658 INFO 16316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:25:07,658 INFO 16316 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:30:06,680 INFO 7192 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:30:06,680 INFO 7192 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:30:06,680 INFO 7192 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:30:37,843 INFO 15008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:30:37,843 INFO 15008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:30:37,843 INFO 15008 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:31:48,381 INFO 7084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:31:48,381 INFO 7084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:31:48,381 INFO 7084 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:34:41,134 INFO 8576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:34:41,134 INFO 8576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:34:41,134 INFO 8576 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:35:08,398 INFO 15728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:35:08,398 INFO 15728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:35:08,398 INFO 15728 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:35:39,329 INFO 3840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:35:39,329 INFO 3840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:35:39,329 INFO 3840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:37:56,918 INFO 14856 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:37:56,918 INFO 14856 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:37:56,918 INFO 14856 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:38:25,526 INFO 9088 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:38:25,526 INFO 9088 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:38:25,526 INFO 9088 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:40:19,996 INFO 15724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:40:19,996 INFO 15724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:40:19,996 INFO 15724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:44:56,821 INFO 16420 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:44:56,821 INFO 16420 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:44:56,821 INFO 16420 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:45:41,342 INFO 14964 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:45:41,342 INFO 14964 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:45:41,342 INFO 14964 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:46:08,909 INFO 10732 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:46:08,909 INFO 10732 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:46:08,910 INFO 10732 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:46:29,171 INFO 15708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:46:29,172 INFO 15708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:46:29,172 INFO 15708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:48:23,462 INFO 17724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:48:23,463 INFO 17724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:48:23,463 INFO 17724 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:48:48,335 INFO 15528 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:48:48,335 INFO 15528 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:48:48,335 INFO 15528 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:49:17,993 INFO 11156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:49:17,994 INFO 11156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:49:17,994 INFO 11156 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:50:06,095 INFO 5588 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:50:06,095 INFO 5588 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:50:06,095 INFO 5588 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:50:35,130 INFO 752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:50:35,131 INFO 752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:50:35,131 INFO 752 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 18:51:01,849 INFO 14360 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 18:51:01,849 INFO 14360 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 18:51:01,849 INFO 14360 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:27:11,079 INFO 8300 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:27:11,079 INFO 8300 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:27:11,079 INFO 8300 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:31:06,994 INFO 2440 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:31:06,994 INFO 2440 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:31:06,994 INFO 2440 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:33:09,732 INFO 9328 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:33:09,732 INFO 9328 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:33:09,732 INFO 9328 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:33:37,592 INFO 8012 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:33:37,592 INFO 8012 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:33:37,592 INFO 8012 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:35:21,911 INFO 6000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:35:21,911 INFO 6000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:35:21,911 INFO 6000 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:38:38,422 INFO 14020 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:38:38,422 INFO 14020 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:38:38,422 INFO 14020 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:38:52,004 INFO 15264 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 31867999ms at 2019-08-21 04:30:00.003
+2019-08-20 19:38:52,005 INFO 15264 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 15667996ms at 2019-08-21 00:00:00.001
+2019-08-20 19:38:52,005 INFO 15264 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 15668995ms at 2019-08-21 00:00:01.000
+2019-08-20 19:38:51,822 INFO 16948 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:38:51,822 INFO 16948 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:38:51,822 INFO 16948 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:39:26,153 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:39:26,153 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:39:26,153 INFO 14760 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:39:46,096 INFO 19832 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:39:46,096 INFO 19832 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:39:46,096 INFO 19832 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:42:34,489 INFO 4344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:42:34,490 INFO 4344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:42:34,490 INFO 4344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:47:59,608 INFO 11344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:47:59,608 INFO 11344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:47:59,608 INFO 11344 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:48:19,892 INFO 10100 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 31300110ms at 2019-08-21 04:30:00.002
+2019-08-20 19:48:19,892 INFO 10100 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 15100108ms at 2019-08-21 00:00:00.000
+2019-08-20 19:48:19,893 INFO 10100 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 15101108ms at 2019-08-21 00:00:01.001
+2019-08-20 19:48:19,711 INFO 19292 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:48:19,711 INFO 19292 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:48:19,711 INFO 19292 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:54:15,338 INFO 16804 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:54:15,338 INFO 16804 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:54:15,338 INFO 16804 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 19:54:44,433 INFO 11484 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 19:54:44,433 INFO 11484 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 19:54:44,433 INFO 11484 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:03:57,499 INFO 8304 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:03:57,499 INFO 8304 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:03:57,499 INFO 8304 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:04:35,089 INFO 16496 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:04:35,089 INFO 16496 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:04:35,089 INFO 16496 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:04:54,311 INFO 10444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:04:54,311 INFO 10444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:04:54,311 INFO 10444 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:06:14,339 INFO 692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:06:14,339 INFO 692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:06:14,339 INFO 692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:06:40,477 INFO 18996 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:06:40,477 INFO 18996 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:06:40,477 INFO 18996 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:07:29,455 INFO 1536 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:07:29,455 INFO 1536 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:07:29,455 INFO 1536 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:10:31,255 INFO 15500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:10:31,255 INFO 15500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:10:31,255 INFO 15500 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:11:03,558 INFO 11488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:11:03,558 INFO 11488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:11:03,558 INFO 11488 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:12:12,506 INFO 7456 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:12:12,506 INFO 7456 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:12:12,506 INFO 7456 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:12:19,957 INFO 6448 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:12:19,957 INFO 6448 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:12:19,957 INFO 6448 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:12:23,317 INFO 16928 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:12:23,317 INFO 16928 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:12:23,317 INFO 16928 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:12:31,881 INFO 19184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:12:31,881 INFO 19184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:12:31,881 INFO 19184 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:13:53,250 INFO 5692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:13:53,250 INFO 5692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:13:53,250 INFO 5692 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:14:14,158 INFO 18840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:14:14,158 INFO 18840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:14:14,158 INFO 18840 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:14:48,016 INFO 12236 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:14:48,016 INFO 12236 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:14:48,016 INFO 12236 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:38:33,370 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:38:33,370 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:38:33,370 INFO 15900 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-20 20:38:59,658 INFO 13372 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-20 20:38:59,658 INFO 13372 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-20 20:38:59,658 INFO 13372 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-21 09:32:22,177 INFO 13640 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68257827ms at 2019-08-22 04:30:00.004
+2019-08-21 09:32:22,179 INFO 13640 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52057822ms at 2019-08-22 00:00:00.001
+2019-08-21 09:32:22,180 INFO 13640 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52058821ms at 2019-08-22 00:00:01.001
+2019-08-21 09:32:21,914 INFO 14228 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-21 09:32:21,914 INFO 14228 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-21 09:32:21,914 INFO 14228 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-21 10:37:55,303 INFO 12424 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64324700ms at 2019-08-22 04:30:00.003
+2019-08-21 10:37:55,303 INFO 12424 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48124697ms at 2019-08-22 00:00:00.000
+2019-08-21 10:37:55,303 INFO 12424 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48125697ms at 2019-08-22 00:00:01.000
+2019-08-21 10:37:55,119 INFO 11716 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-21 10:37:55,119 INFO 11716 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-21 10:37:55,119 INFO 11716 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-21 14:02:41,582 INFO 3504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52038421ms at 2019-08-22 04:30:00.003
+2019-08-21 14:02:41,582 INFO 3504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35838418ms at 2019-08-22 00:00:00.000
+2019-08-21 14:02:41,582 INFO 3504 [Timer] D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35839418ms at 2019-08-22 00:00:01.000
+2019-08-21 14:02:41,369 INFO 2708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-21 14:02:41,369 INFO 2708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-21 14:02:41,369 INFO 2708 [egg-schedule]: register schedule D:\high-node\exercise\project\serverEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
